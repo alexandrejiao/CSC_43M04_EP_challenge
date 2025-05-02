@@ -13,7 +13,7 @@ class DinoV2Finetune(nn.Module):
                 param.requires_grad = False
         self.regression_head = nn.Sequential(
             nn.Linear(self.backbone.norm.normalized_shape[0], 1),
-            nn.ReLU(),
+            nn.GELU(),
         )
 
     def forward(self, x):
