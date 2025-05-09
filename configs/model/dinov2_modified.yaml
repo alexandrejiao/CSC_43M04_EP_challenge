@@ -1,0 +1,5 @@
+instance:
+  _target_: models.dinov2_modified.DinoV2FinetuneModified
+  frozen: True
+
+name: DINOV2_modified

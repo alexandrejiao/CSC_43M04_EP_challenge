@@ -5,7 +5,7 @@ defaults:
     - model: dinov2
     - loss_fn: msle
 
-epochs: 20
+epochs: 100
 log: True
 prefix: ""
 experiment_name: ${prefix}${model.name}_${now:%Y-%m-%d_%H-%M-%S}
