@@ -3,8 +3,8 @@ import wandb
 import hydra
 from tqdm import tqdm
 
-
 from utils.sanity import show_images
+
 
 
 @hydra.main(config_path="configs", config_name="train")
